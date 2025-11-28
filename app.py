@@ -9,7 +9,7 @@ pickup_longitude = st.number_input("Pickup longitude", format="%.6f")
 pickup_latitude = st.number_input("Pickup latitude", format="%.6f")
 dropoff_longitude = st.number_input("Dropoff longitude", format="%.6f")
 dropoff_latitude = st.number_input("Dropoff latitude", format="%.6f")
-passenger_count = st.number_input("Passenger count", min_value=1, max_value=8, value=2, step=1, format="%d")
+passenger_count = st.number_input("Passenger count", min_value=1, max_value=8, step=1, format="%d")
 
 url = "https://taxifare.lewagon.ai/predict"
 params = {
